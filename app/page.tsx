@@ -6,7 +6,7 @@ export default function Home() {
     <main>
       {/* Hero */}
       <header>
-        <h1>Anjitha Anand</h1>
+        <h1>Anjitha Mekkayil Anand</h1>
         <p className="tagline">
           I build systems that sense what&rsquo;s going wrong before it breaks
           &mdash; twenty years of it, from factory-floor microcontrollers to AI
