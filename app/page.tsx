@@ -23,6 +23,23 @@ export default function Home() {
         <h2>Selected work</h2>
         <div className="cards">
           <div className="card">
+            <h3>Anamnesis</h3>
+            <p>
+              Retrieval-augmented answering over my own published writing:
+              .NET 10, paragraph-aware chunking, embeddings in SQLite, exact
+              top-k retrieval, and grounded answers with inline citations
+              &mdash; Claude primary, automatic failover to OpenAI (Polly).
+              Ships with a 20-question eval harness; first baseline:
+              hit-rate@5 0.95, MRR 0.90, faithfulness 1.00 &mdash; and it says
+              &ldquo;the sources don&rsquo;t cover this&rdquo; instead of
+              inventing.
+            </p>
+            <div className="links">
+              <a href={`${GITHUB}/anamnesis`}>GitHub</a>
+            </div>
+          </div>
+
+          <div className="card">
             <h3>Mathesis</h3>
             <p>
               Multi-agent enterprise learning system: a four-agent pipeline
