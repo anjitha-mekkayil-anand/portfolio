@@ -36,6 +36,7 @@ export default function Home() {
             </p>
             <div className="links">
               <a href={`${GITHUB}/anamnesis`}>GitHub</a>
+              <a href="https://youtu.be/ZRlSzQ6BE30">Demo (60s)</a>
             </div>
           </div>
 
