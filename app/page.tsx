@@ -144,6 +144,19 @@ export default function Home() {
         </p>
       </section>
 
+      {/* How I work */}
+      <section id="how">
+        <h2>How I work</h2>
+        <p>
+          I verify before I ship. The projects above carry their own receipts:
+          a 20-question eval harness before Anamnesis had a README, 17 unit
+          tests in a hackathon that required none, human approval gates as
+          architecture rather than demo dressing. As AI writes more of the
+          code, judgment becomes the job &mdash; mine comes with evidence
+          attached.
+        </p>
+      </section>
+
       {/* Credentials */}
       <section id="credentials">
         <h2>Credentials</h2>
@@ -178,6 +191,7 @@ export default function Home() {
         <div className="contact-row">
           <a href={LINKEDIN}>LinkedIn</a>
           <a href={GITHUB}>GitHub</a>
+          <a href="/Anjitha-Mekkayil-Anand-CV.pdf">CV (PDF)</a>
         </div>
       </section>
 
