@@ -9,7 +9,7 @@ export default function Home() {
         <h1>Anjitha Mekkayil Anand</h1>
         <p className="tagline">
           I build systems that sense what&rsquo;s going wrong before it breaks
-          &mdash; twenty years of it, from factory-floor microcontrollers to AI
+          - twenty years of it, from factory-floor microcontrollers to AI
           reasoning agents.
         </p>
         <p className="role-line">
@@ -28,9 +28,9 @@ export default function Home() {
               Retrieval-augmented answering over my own published writing:
               .NET 10, paragraph-aware chunking, embeddings in SQLite, exact
               top-k retrieval, and grounded answers with inline citations
-              &mdash; Claude primary, automatic failover to OpenAI (Polly).
+              - Claude primary, automatic failover to OpenAI (Polly).
               Ships with a 20-question eval harness; first baseline:
-              hit-rate@5 0.95, MRR 0.90, faithfulness 1.00 &mdash; and it says
+              hit-rate@5 0.95, MRR 0.90, faithfulness 1.00 - and it says
               &ldquo;the sources don&rsquo;t cover this&rdquo; instead of
               inventing.
             </p>
@@ -45,7 +45,7 @@ export default function Home() {
             <p>
               Multi-agent enterprise learning system: a four-agent pipeline
               (Curator &rarr; Planner &rarr; Assessor &rarr; Manager Insights)
-              on Azure AI Foundry with an MCP server &mdash; and two human
+              on Azure AI Foundry with an MCP server - and two human
               approval gates as an architecture decision, not a demo feature.
               Built in under a week after the hackathon rules changed
               overnight; 17 unit tests, consistency evaluation stable across
@@ -75,7 +75,7 @@ export default function Home() {
             <h3>Aletheia</h3>
             <p>
               Open-sourced template for an LLM-maintained personal knowledge
-              base &mdash; the pattern behind the system that runs my own
+              base - the pattern behind the system that runs my own
               notes, drafts, and decisions.
             </p>
             <div className="links">
@@ -114,11 +114,11 @@ export default function Home() {
         <ul className="timeline">
           <li>
             <span className="year">2006</span> PIC microcontroller factory
-            monitor &mdash; my first program: sensors, thresholds, alerts.
+            monitor - my first program: sensors, thresholds, alerts.
           </li>
           <li>
             <span className="year">2015</span> Real-time sensor data collection
-            on BeagleBone PRUSS &mdash; published at ACM WCI &rsquo;15 (
+            on BeagleBone PRUSS - published at ACM WCI &rsquo;15 (
             <a href="https://doi.org/10.1145/2791405.2791408">
               DOI 10.1145/2791405.2791408
             </a>
@@ -130,7 +130,7 @@ export default function Home() {
           </li>
           <li>
             <span className="year">2023&ndash;</span> Enterprise energy
-            platform for the Nordic market &mdash; .NET modular monolith,
+            platform for the Nordic market - .NET modular monolith,
             event-driven, market-compliance workflows.
           </li>
           <li>
@@ -152,7 +152,7 @@ export default function Home() {
           a 20-question eval harness before Anamnesis had a README, 17 unit
           tests in a hackathon that required none, human approval gates as
           architecture rather than demo dressing. As AI writes more of the
-          code, judgment becomes the job &mdash; mine comes with evidence
+          code, judgment becomes the job - mine comes with evidence
           attached.
         </p>
       </section>
@@ -166,11 +166,12 @@ export default function Home() {
             2026)
           </li>
           <li>Microsoft Certified: Azure Developer Associate (AZ-204)</li>
-          <li>GitHub Copilot (GH-300) &middot; Professional Scrum Master I</li>
-          <li>ACM publication, WCI &rsquo;15 &mdash; linked above</li>
+          <li>GitHub Copilot (GH-300)</li>
+          <li>Professional Scrum Master I</li>
+          <li>ACM publication, WCI &rsquo;15 - linked above</li>
+          <li>12+ years professional engineering</li>
           <li>
-            12+ years professional engineering &middot; Runner-up in a
-            26-person enterprise leadership programme, 2026
+            Runner-up in a 26-person enterprise leadership programme, 2026
           </li>
         </ul>
       </section>
@@ -179,7 +180,7 @@ export default function Home() {
       <section id="writing">
         <h2>Writing</h2>
         <p>
-          I write about AI-assisted engineering &mdash; workflows, agent
+          I write about AI-assisted engineering - workflows, agent
           design, and what actually holds up in production.{" "}
           <a href={LINKEDIN}>Read on LinkedIn &rarr;</a>
         </p>
@@ -196,7 +197,7 @@ export default function Home() {
       </section>
 
       <footer>
-        Built by hand, with AI in the loop &mdash; which is also how I work.
+        Built by hand, with AI in the loop - which is also how I work.
       </footer>
     </main>
   );
