@@ -105,6 +105,42 @@ export default function Home() {
               <a href={`${GITHUB}/Stentor`}>GitHub</a>
             </div>
           </div>
+          <div className="card">
+            <h3>Redis Server</h3>
+            <p>
+              A Redis server from scratch in .NET 10: the real RESP2 wire
+              protocol over async TCP, so redis-cli and redis-benchmark talk to
+              it directly. Thread-safe store with key expiry; 25 tests including
+              a real-socket 25-client concurrency test.
+            </p>
+            <div className="links">
+              <a href={`${GITHUB}/redis-server`}>GitHub</a>
+            </div>
+          </div>
+          <div className="card">
+            <h3>Rate Limiter</h3>
+            <p>
+              All four classic rate-limiting algorithms - token bucket, fixed
+              window, sliding-window log and counter - behind one interface, as
+              ASP.NET Core middleware. 17 tests; deterministic time via
+              TimeProvider.
+            </p>
+            <div className="links">
+              <a href={`${GITHUB}/rate-limiter`}>GitHub</a>
+            </div>
+          </div>
+          <div className="card">
+            <h3>Data Privacy Vault</h3>
+            <p>
+              A tokenization service that swaps sensitive fields for opaque
+              tokens and stores the originals AES-256-GCM encrypted, gated by
+              scoped API keys - the field-level privacy-masking pattern from
+              production, with 15 tests.
+            </p>
+            <div className="links">
+              <a href={`${GITHUB}/data-privacy-vault`}>GitHub</a>
+            </div>
+          </div>
         </div>
       </section>
 
