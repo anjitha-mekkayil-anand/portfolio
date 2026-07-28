@@ -9,12 +9,12 @@ export default function Home() {
         <h1>Anjitha Mekkayil Anand</h1>
         <p className="tagline">
           I build systems that sense what&rsquo;s going wrong before it breaks
-          - twenty years of it, from factory-floor microcontrollers to AI
-          reasoning agents.
+          - since 2006, from factory-floor microcontrollers to AI reasoning
+          agents.
         </p>
         <p className="role-line">
           Senior .NET Engineer &middot; Azure &middot; Agentic AI &middot;
-          Energy domain (Nordic enterprise) &middot; Kerala, India
+          Energy domain (Nordic enterprise) &middot; Mangaluru, India
         </p>
       </header>
 
@@ -30,9 +30,11 @@ export default function Home() {
               top-k retrieval, and grounded answers with inline citations
               - Claude primary, automatic failover to OpenAI (Polly).
               Ships with a 20-question eval harness; first baseline:
-              hit-rate@5 0.95, MRR 0.90, faithfulness 1.00 - and it says
-              &ldquo;the sources don&rsquo;t cover this&rdquo; instead of
-              inventing.
+              hit-rate@5 0.95, MRR 0.90, faithfulness 1.00. The set is
+              twenty questions I wrote over my own corpus, so the honest
+              read is that it needs adversarial cases before those numbers
+              mean much - but it does say &ldquo;the sources don&rsquo;t
+              cover this&rdquo; instead of inventing.
             </p>
             <div className="links">
               <a href={`${GITHUB}/anamnesis`}>GitHub</a>
