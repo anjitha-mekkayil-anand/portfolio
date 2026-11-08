@@ -136,8 +136,8 @@ export default function Home() {
         <section className="stats" aria-label="At a glance">
           <div className="wrap stats-grid">
             <div className="stat">
-              <span className="stat-big">Runner-Up of 26</span>
-              <span className="stat-label">EG Talent Accelerator 2026. The panel: &ldquo;We&rsquo;d like this in production today.&rdquo;</span>
+              <span className="stat-big">Runner-Up entry</span>
+              <span className="stat-label">EG Talent Accelerator 2026: built alone, presented live. The panel: &ldquo;We&rsquo;d like this in production today.&rdquo;</span>
             </div>
             <div className="stat">
               <span className="stat-big">800+</span>
@@ -309,7 +309,7 @@ export default function Home() {
                 <li>GitHub Copilot (GH-300)</li>
                 <li>Professional Scrum Master I</li>
                 <li>M.Tech, Embedded Systems, NIELIT Calicut</li>
-                <li>Runner-up in a 26-person enterprise leadership programme, 2026</li>
+                <li>Built the runner-up entry in a 26-person enterprise leadership programme, 2026</li>
               </ul>
             </div>
             <div>
