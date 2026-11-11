@@ -224,6 +224,10 @@ h3 {
   grid-template-columns: repeat(2, 1fr);
   gap: 1.1rem;
 }
+/* An odd last card spans both columns instead of sitting alone. */
+.cases .case:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+}
 
 .case {
   background: var(--card);

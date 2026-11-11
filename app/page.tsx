@@ -140,7 +140,7 @@ export default function Home() {
               <span className="stat-label">EG Talent Accelerator 2026: built alone, presented live. The panel: &ldquo;We&rsquo;d like this in production today.&rdquo;</span>
             </div>
             <div className="stat">
-              <span className="stat-big">800+</span>
+              <span className="stat-big">850+</span>
               <span className="stat-label">pull requests reviewed for colleagues on a large .NET platform</span>
             </div>
             <div className="stat">
@@ -159,7 +159,7 @@ export default function Home() {
                 <span className="case-year">2017</span>
                 <h3>A tax regime, learned from the legislation</h3>
                 <p>
-                  India replaced its tax system almost overnight. I learned the GST rules from the legislation itself,
+                  India replaced its tax system. I learned the GST rules from the legislation itself,
                   mapped them onto a live billing product and shipped it to more than ten enterprise clients.
                 </p>
               </article>
@@ -175,9 +175,17 @@ export default function Home() {
                 <span className="case-year">2023&ndash;</span>
                 <h3>Seventeen arrays for one status</h3>
                 <p>
-                  In a 7,000-line front-end module, adding one status meant editing 17 hardcoded arrays. A three-layer
-                  resolution pipeline replaced them, surfaced 12 bugs nobody knew were there and cut the two largest
+                  In a front-end module of nearly 9,500 lines, adding one status meant editing 17 hardcoded arrays. A
+                  three-layer resolution pipeline replaced them, surfaced 14 pre-existing bugs and cut the two largest
                   files by about 75%.
+                </p>
+              </article>
+              <article className="case">
+                <span className="case-year">Now</span>
+                <h3>Blazor inside a live legacy app</h3>
+                <p>
+                  Moving a live KnockoutJS application onto Blazor in steps: Blazor dialogs hosted inside the legacy
+                  pages, and a written plan the product owner used to scope the first slice.
                 </p>
               </article>
               <article className="case">
