@@ -259,19 +259,20 @@ export default function Home() {
             <h2>Since 2006</h2>
             <ol className="timeline">
               <li>
-                <span className="year">2006</span>
+                <span className="year">2006&ndash;08</span>
                 <p>A PIC microcontroller factory monitor, my first program: sensors, thresholds, alerts. Then mainframe COBOL at Infosys.</p>
               </li>
               <li>
-                <span className="year">2015</span>
+                <span className="year">2013&ndash;15</span>
                 <p>
-                  Real-time sensor data collection on BeagleBone PRUSS, published at ACM WCI &rsquo;15 (
+                  M.Tech in Embedded Systems at NIELIT Calicut, with a project traineeship at Gadgeon: real-time sensor
+                  data collection on BeagleBone PRUSS, published at ACM WCI &rsquo;15 (
                   <a href="https://doi.org/10.1145/2791405.2791408">DOI 10.1145/2791405.2791408</a>).
                 </p>
               </li>
               <li>
                 <span className="year">2016&ndash;19</span>
-                <p>ERP and billing in .NET and SQL Server; team lead for about six engineers; the GST switch and the FoxPro rebuild.</p>
+                <p>ERP and billing in .NET and SQL Server; from 2017, team lead for about six engineers; the GST switch and the FoxPro rebuild.</p>
               </li>
               <li>
                 <span className="year">2019&ndash;22</span>
@@ -296,8 +297,8 @@ export default function Home() {
             <p className="prose">
               I read before I change. Most of my best work started with a system nobody in the room fully understood:
               I learn how it behaves, find the real cause and change it in steps small enough to review. Now that AI
-              writes more of the code, review is more of the job. I use Claude and Copilot every day and read what they
-              produce the way I read a colleague&rsquo;s pull request.
+              writes more of the code, review is more of the job. I use Claude Code daily at work and read what it
+              produces the way I read a colleague&rsquo;s pull request.
             </p>
             <blockquote>
               The question I ask first: is there something here nobody understands yet, and how long does someone get
