@@ -208,13 +208,14 @@ export default function Home() {
             <article className="feature">
               <div className="feature-head">
                 <h3>Kilippaattu</h3>
-                <span className="pill">Live &middot; private sign-in</span>
+                <span className="pill">Live &middot; open front page</span>
               </div>
               <p>
                 A phone-first web app that turns my morning birding into one day log. It reads Merlin species lists
                 from screenshots with on-device OCR and BirdNET Live exports straight from their zip, stitches the
                 recordings into a mix with human voices filtered out, and makes a shareable MP4 day card on the phone.
-                I design and test it; Claude Code writes the code under my review.
+                I design and test it; Claude Code writes the code under my review. The front page is open to anyone:
+                a calendar of mornings and the birds in each. Recordings and the full log stay private.
               </p>
               <ul className="tags">
                 <li>Next.js</li>
